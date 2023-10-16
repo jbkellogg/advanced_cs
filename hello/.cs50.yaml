@@ -2,11 +2,11 @@ check50:
   checks:
     monkey:
       - run: python3 hello.py
-        stdout: Hello, world!
+        stdout: Hello, World!
         exit: 0
 submit50:
   checks:
     monkey:
       - run: python3 hello.py
-        stdout: Hello, world!
+        stdout: Hello, World!
         exit: 0
