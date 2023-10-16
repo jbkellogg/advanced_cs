@@ -1,12 +1,12 @@
 check50:
   checks:
-    monkey:
+    hello:
       - run: python3 hello.py
         stdout: Hello, World!
         exit: 0
 submit50:
   checks:
-    monkey:
+    hello:
       - run: python3 hello.py
         stdout: Hello, World!
         exit: 0
