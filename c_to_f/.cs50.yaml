@@ -6,7 +6,7 @@ check50:
         stdout: That's 89.6 degrees in Fahrenheit.
         exit: 0
     ahh:
-      - run: python3 hello_name.py
+      - run: python3 c_to_f.py
         stdin:  20
         stdout: That's 68.0 degrees in Fahrenheit.
         exit: 0
@@ -18,7 +18,7 @@ submit50:
         stdout: That's 89.6 degrees in Fahrenheit.
         exit: 0
     ahh:
-      - run: python3 hello_name.py
+      - run: python3 c_to_f.py
         stdin:  20
         stdout: That's 68.0 degrees in Fahrenheit.
         exit: 0
