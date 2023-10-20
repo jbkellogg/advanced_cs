@@ -1,0 +1,23 @@
+check50:
+  checks:
+    hello_katara:
+      - run: python3 hello_name.py
+        stdin:  Katara
+        stdout: Hello, Katara!
+        exit: 0
+    hello_ang:
+      - run: python3 hello_name.py
+        stdin:  Avatar Ang
+        stdout: Hello, Avatar Ang!
+        exit: 0
+submit50:
+    hello_katara:
+      - run: python3 hello_name.py
+        stdin:  Katara
+        stdout: Hello, Katara!
+        exit: 0
+    hello_ang:
+      - run: python3 hello_name.py
+        stdin:  Avatar Ang
+        stdout: Hello, Avatar Ang!
+        exit: 0
